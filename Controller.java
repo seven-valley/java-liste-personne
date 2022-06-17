@@ -11,7 +11,7 @@ public class Controller {
 		sc = new Scanner(System.in);
 		int choix;
 		do {
-			
+			// je met des commentaires
 			System.out.println("---------------------------");
 			System.out.println("-------    COCKTAIL    ----");
 			System.out.println("---------------------------");
@@ -45,6 +45,7 @@ public class Controller {
 		// parcourrir le tableau
 		for (int i = 0; i < personnes.length; i++) {
 			// si emplacement vide
+			// if (personnes[i].equals("jean"))
 			if (personnes[i] == null) {
 				personnes[i] = nom; // je met la personne ds le tab
 				break; // je sort de la bcl for
